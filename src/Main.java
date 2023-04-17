@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -68,5 +69,14 @@ public class Main {
         System.out.println("Общий вес двух бойцов " + vesDvoix);
         var raznica = sportsmen2 - sprotsmen1;
         System.out.println("разница в вессе " + raznica);
+    }
+
+    public static void task7() {
+        System.out.println("Решение задачи 7");
+        var sprotsmen1 = 78.2;
+        var sportsmen2 = 82.7;
+        var raznica1 = sportsmen2 - sprotsmen1;
+        var raznica2 = sportsmen2 % sprotsmen1;
+        System.out.println(raznica2);
     }
 }
