@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -78,5 +79,16 @@ public class Main {
         var raznica1 = sportsmen2 - sprotsmen1;
         var raznica2 = sportsmen2 % sprotsmen1;
         System.out.println(raznica2);
+    }
+
+    public static void task8() {
+        System.out.println("Решение задачи 8");
+        var time = 640;
+        var workingHours = 8;
+        var worker = time / workingHours;
+        System.out.println("Всего работников в компании - " + worker + " человек");
+        worker = worker + 94;
+        workingHours = time / worker;
+        System.out.println("Если в компании работает " + worker + " человек, то всего " + workingHours + " часов работы может быть поделено между сотрудниками");
     }
 }
